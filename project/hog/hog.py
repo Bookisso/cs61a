@@ -398,9 +398,7 @@ def hog_pile_strategy(score, opponent_score, threshold=8, num_rolls=6):
 
 
 def final_strategy(score, opponent_score):
-    """Write a brief description of your final strategy.
-
-    *** YOUR DESCRIPTION HERE ***
+    """从0开始遍历，分别查看扔0、1、2个骰子能否获胜，不能则按照默认骰子扔。
     """
     # BEGIN PROBLEM 12
     return 6  # Remove this line once implemented.
